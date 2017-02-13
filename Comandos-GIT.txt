@@ -7,4 +7,14 @@ git status - Verificar o estado dos arquivos do projeto.Se o arquivo não estiver
 
 git add arquivo.html - adicionar arquivos no repositório para o GIT controlar.
 
-git add * - Adiciona todos arquivos do diretório para o GIT controlar
+git add * - Adiciona todos arquivos do diretório para o GIT controlar.
+
+- Informar ao Git o nosso nome e e-mail.Para identificação.Com isso o usuário será o responsável pelas alterações no repositório atual.
+git config --global user.name "Lorran"
+git config --global user.email "lorran@gmail.com"
+- Caso essa configuração não seja efetuada, o Git vai determinar o nome de usuário atual do terminal como o autor das alterações.
+
+
+git commit -m "Início do projeto" - Após incluir os arquivos é hora de comitar os arquivos para o GitHub.
+- A flag "-m", indica que o conteúdo a seguir é a mensagem que será utilizada para descrever o que está sendo feito no commit.
+
