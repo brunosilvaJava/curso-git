@@ -38,7 +38,29 @@ git remote add https://github.com/brunosilvaJava/curso-git
 git remote add origin https://github.com/brunosilvaJava/curso-git
 
 - Remover um servidor remoto
-
 git remote remove origin
+
+-- Comando git push, empurra para o servidor.Este comando é para copiar o projeto local para o servidor.
+
+git push origin Dev
+
+--Veja o Git Commit abaixo:
+$ git commit -m "#1 Alteração de Arquivo e descrições"
+[Dev 246b42f] #1 AlteraÃ§Ã£o de Arquivo e descriÃ§Ãµes
+ 1 file changed, 16 insertions(+)
+
+ -- git push
+Lorran@Lorran-PC MINGW64 ~/Documents/GitHub/curso-git (Dev)
+$ git push origin Dev
+Username for 'https://github.com': lorranpalmeira
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 526 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/brunosilvaJava/curso-git
+   d74de7c..246b42f  Dev -> Dev
+
 
 
