@@ -63,4 +63,6 @@ To https://github.com/brunosilvaJava/curso-git
    d74de7c..246b42f  Dev -> Dev
 --------------------------------------------------------
 
+git log -- Visualizaçao de Log dos commits
+
 
