@@ -3,4 +3,8 @@ git init - Indicar que essa pasta será o repositório
 
 git ls-files - Verificar quais os arquivos que pertencem ao repositório.
 
-git add - adicionar arquivos no repositório para o GIT controlar.
+git status - Verificar o estado dos arquivos do projeto.Se o arquivo não estiver sendo controlado, aparecerá com a cor vermelha.
+
+git add arquivo.html - adicionar arquivos no repositório para o GIT controlar.
+
+git add * - Adiciona todos arquivos do diretório para o GIT controlar
