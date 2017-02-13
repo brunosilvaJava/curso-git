@@ -69,4 +69,11 @@ git branch nome_branch - Para criar uma branch
 
 git checkout nome_branch   - Para mudar de Branch
 
+git pull origin nome_branch - Atualizar da branch remoto para local.(Atualização de repositório remoto to local)
+
+git push origin nome_branch - Atualizar branch local pra remota.(Atualização de repositório local para remoto da repectiva branch)
+
+git branch -r  - Visualizaçao branch remota
+
+
 
