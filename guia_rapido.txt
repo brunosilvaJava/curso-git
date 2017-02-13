@@ -1,0 +1,9 @@
+#################################   
+#  Guia rápido para o git       # 
+#################################
+# git remote add origin http... #
+# git add *                     #
+# git status                    #
+# git commit -m "#issue nomes"  #
+# git push origin nome_branch   #
+#################################
