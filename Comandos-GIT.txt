@@ -26,3 +26,19 @@ git config --global user.email "lorran@gmail.com"
 git commit -m "Início do projeto" - Após incluir os arquivos é hora de comitar os arquivos para o GitHub.
 - A flag "-m", indica que o conteúdo a seguir é a mensagem que será utilizada para descrever o que está sendo feito no commit.
 
+- Adicionar repositório remoto.
+git remote add [alias_do_repositorio] [uri_do_repositorio]
+Exemplo:
+https://github.com/[nome_do_usuario]/[nome_do_repositorio].git
+
+git remote add https://github.com/brunosilvaJava/curso-git
+
+- Comando completo, sendo que origin significa um alias
+
+git remote add origin https://github.com/brunosilvaJava/curso-git
+
+- Remover um servidor remoto
+
+git remote remove origin
+
+
