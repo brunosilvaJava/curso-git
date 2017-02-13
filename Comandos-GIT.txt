@@ -38,7 +38,8 @@ git remote add https://github.com/brunosilvaJava/curso-git
 git remote add origin https://github.com/brunosilvaJava/curso-git
 
 - Remover um servidor remoto
-git remote remove origin
+git remote rm origin
+
 
 -- Comando git push, empurra para o servidor.Este comando é para copiar o projeto local para o servidor.
 
