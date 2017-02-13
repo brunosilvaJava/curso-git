@@ -65,4 +65,8 @@ To https://github.com/brunosilvaJava/curso-git
 
 git log -- Visualizaçao de Log dos commits
 
+git branch nome_branch - Para criar uma branch
+
+git checkout nome_branch   - Para mudar de Branch
+
 
