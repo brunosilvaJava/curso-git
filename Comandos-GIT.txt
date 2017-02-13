@@ -2,3 +2,5 @@
 git init - Indicar que essa pasta será o repositório
 
 git ls-files - Verificar quais os arquivos que pertencem ao repositório.
+
+git add - adicionar arquivos no repositório para o GIT controlar.
